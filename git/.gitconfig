@@ -1,0 +1,14 @@
+[core]
+    editor = nvim
+[user]
+	name = Gustavo Schneider
+	email = gustavo.schneider.dev@gmail.com
+[color]
+	ui = auto
+[alias]
+	s = !git status -s
+	l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+[push]
+	followTags = true
+[init]
+	defaultBranch = main

@@ -1,11 +1,11 @@
 return {
-  { 
-    "ellisonleao/gruvbox.nvim", 
+  {
+    "ellisonleao/gruvbox.nvim",
     priority = 1000 ,
     config = function()
-      vim.o.background = "dark"  
+      vim.o.background = "dark"
       vim.cmd("colorscheme gruvbox")
-    end, 
+    end,
     opts = {
       terminal_colors = true, -- add neovim terminal colors
       undercurl = true,

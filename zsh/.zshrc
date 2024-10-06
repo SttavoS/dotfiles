@@ -112,6 +112,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nvimconfig="nvim ~/.config/nvim/init.vim"
 alias lvimconfing="lvim ~/.config/lvim/config.lua"
 alias alacrittyconfig="nvim ~/.config/alacritty/alacritty.toml"
+alias tmuxsource="tmux source ~/.tmux.conf"
 
 alias dockerstart="sudo systemctl start docker"
 

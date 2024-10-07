@@ -1,6 +1,26 @@
-vim.opt.number = true
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
 vim.g.mapleader = " "
+
+local opt = vim.opt
+
+opt.number = true
+opt.clipboard = "unnamedplus"
+
+opt.expandtab = true
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
+
+opt.cursorline = true
+opt.wrap = true
+opt.scrolloff = 8
+opt.mouse = "a"
+
+opt.termguicolors = true
+
+-- Desativar arquivos de backup e swap
+opt.backup = false
+opt.writebackup = false
+opt.swapfile = false
+
+-- Tempo de espera para mapeamentos
+opt.timeoutlen = 500

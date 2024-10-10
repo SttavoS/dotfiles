@@ -11,7 +11,7 @@ opt.softtabstop = 2
 opt.shiftwidth = 2
 
 opt.cursorline = true
-opt.wrap = true
+opt.wrap = false
 opt.scrolloff = 8
 opt.mouse = "a"
 

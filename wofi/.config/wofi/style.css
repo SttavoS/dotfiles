@@ -1,33 +1,63 @@
 :root {
-  --color-black: #282828;
-  --color-red: #cc241d;
-  --color-green: #98971a;
-  --color-yellow: #d79921;
-  --color-blue: #458588;
-  --color-purple: #b16286;
-  --color-cyan: #689d6a;
-  --color-white: #a89984;
-  --color-bright-black: #928374;
-  --color-bright-red: #fb4934;
-  --color-bright-green: #b8bb26;
-  --color-bright-yellow: #fabd2f;
-  --color-bright-blue: #83a598;
-  --color-bright-purple: #d3869b;
-  --color-bright-cyan: #8ec07c;
-  --color-bright-white: #ebdbb2;
-  
-  --background-color: #282828;
-  --foreground-color: #ebdbb2;
-  --selection-background-color: #665c54;
-  --cursor-color: #ebdbb2;
+	--color-black: #282828;
+	--color-red: #cc241d;
+	--color-green: #98971a;
+	--color-yellow: #d79921;
+	--color-blue: #458588;
+	--color-purple: #b16286;
+	--color-cyan: #689d6a;
+	--color-white: #a89984;
+	--color-bright-black: #928374;
+	--color-bright-red: #fb4934;
+	--color-bright-green: #b8bb26;
+	--color-bright-yellow: #fabd2f;
+	--color-bright-blue: #83a598;
+	--color-bright-purple: #d3869b;
+	--color-bright-cyan: #8ec07c;
+	--color-bright-white: #ebdbb2;
+
+	--background-color: #282828;
+	--foreground-color: #ebdbb2;
+	--selection-background-color: #665c54;
+	--cursor-color: #ebdbb2;
 }
 
 window {
-  background-color: #282828;
-  color: #a89984;
+	background-color: #282828;
+	font-size: 20px;
+	font-family: "JetBrains Mono Nerd Font";
+	border: 1px solid #98971a;
+}
 
-  font-size: 20px;
-  font-family: "JetBrains Mono Nerd Font";
+#input {
+	margin: 5px;
+	border: 1px solid #98971a;
+	background-color: #282828;
+	color: #a89984;
+}
 
-  border: 1px solid #98971a;
+#inner-box {
+	margin: 5px;
+	border: 1px solid #98971a;
+	background-color: #282828;
+}
+
+#outer-box {
+	margin: 5px;
+	/* border: 2px solid transparent; */
+	background-color: #282828;
+}
+
+#entry:selected {
+	background-color: #98971a;
+}
+
+#text {
+	margin: 5px;
+	color: #a89984;
+}
+
+#text:selected {
+	background-color: #98971a;
+	color: #282828;
 }

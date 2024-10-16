@@ -7,12 +7,6 @@ keymap.set("n", "<leader>w", ":update<Return>", opts, { desc = "Save file" })
 keymap.set("n", "<leader>q", ":quit<Return>", opts, { desc = "Quit file" })
 keymap.set("n", "<leader>Q", ":qa<Return>", opts, { desc = "Quit NeoVim" })
 
--- Tabs
-keymap.set("n", "te", ":tabedit")
-keymap.set("n", "<tab>", ":tabnext<Return>", opts, { desc = "Go to next tab" })
-keymap.set("n", "S-<tab>", ":tabprev<Return>", opts, { desc = "Go to previous tab" })
-keymap.set("n", "tw", ":tabclose", opts, { desc = "Close actual tab" })
-
 -- Navigate vim panes better
 keymap.set("n", "<C-k>", ":wincmd k<CR>")
 keymap.set("n", "<C-j>", ":wincmd j<CR>")

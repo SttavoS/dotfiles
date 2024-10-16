@@ -1,5 +1,14 @@
 import = ["/home/sttavos/.config/alacritty/gruvbox.toml"]
 
+[window]
+decorations = "full"
+dynamic_title = true
+opacity = 0.9
+padding = { x = 5, y = 0 }
+
+[shell]
+program = "/bin/zsh"
+
 # Font config:
 [font]
 size = 11.0

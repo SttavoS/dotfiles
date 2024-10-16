@@ -5,17 +5,8 @@ return {
 			local notify = require("notify")
 			vim.notify = notify
 
-      notify.setup()
+			notify.setup()
 		end,
-		keys = {
-			{
-				"<leader>un",
-				function()
-					require("notify").dismiss({ silent = true, pending = true })
-				end,
-				desc = "Dismiss All Notifications",
-			},
-		},
 		opts = {
 			stages = "static",
 			timeout = 3000,

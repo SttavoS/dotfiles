@@ -4,11 +4,6 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-font pango: JetBrainsMonoNerdFont 10
-
-gaps inner 5px
-gaps outer 5px
-
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -37,9 +32,6 @@ output * bg /home/sttavos/Imagens/wallpapers/Nighthawks_by_Edward_Hopper_1942.jp
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
-
-### Window configuration
-default_border pixel 2
 
 # client.focused $green
 
@@ -216,6 +208,19 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+### Window configuration
+default_border pixel 2
+default_floating_border pixel 2
+
+client.focused "#98971a" "#98971a" "#ffffff" "#98971a"
+client.unfocused "#665c54" "#665c54" "#ffffff" "#665c54"
+for_window [floating] border pixel 2
+
+gaps inner 5px
+gaps outer 5px
+
+font pango: JetBrainsMonoNerdFont 10
 
 #
 # Status Bar:

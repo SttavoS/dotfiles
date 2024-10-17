@@ -24,6 +24,8 @@ set $term alacritty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 set $menu wofi --show run
+# Colours
+set $green #98971a
 
 ### Output configuration
 #
@@ -35,6 +37,11 @@ output * bg /home/sttavos/Imagens/wallpapers/Nighthawks_by_Edward_Hopper_1942.jp
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+
+### Window configuration
+default_border pixel 2
+
+# client.focused $green
 
 ### Idle configuration
 #

@@ -82,7 +82,7 @@ input "type:keyboard" {
     bindsym Mod1+space exec $menu
 
     # Start screenshot GUI
-    bindsym Print exec flameshot gui
+    bindsym $mod+Print exec slurp | grim -g - - | wl-copy
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

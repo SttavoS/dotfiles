@@ -7,6 +7,6 @@ return {
 
     dashboard.section.header.val = headers.neovim
 
-    alpha.setup(dashboard.opts)
+    -- alpha.setup(dashboard.opts)
   end,
 }

@@ -12,4 +12,7 @@ return {
 		event = "BufReadPre",
 		opts = {},
 	},
+  {
+    "tpope/vim-commentary"
+  }
 }

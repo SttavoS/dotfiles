@@ -31,7 +31,6 @@
 }
 
 window#waybar {
-  /* padding: 5px 5px 0 5px; */
   background-color: rgba(40, 40, 40, 1.0);
   border: 1px solid #98971a;
   color: #ffffff;
@@ -75,19 +74,15 @@ button:hover {
   box-shadow: inset 0 -3px #ffffff;
 }
 
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-  background-color: #a37800;
-}
-
 #custom-arch {
   padding: 0 5px;
+  color: #ebdbb2;
 }
 
 #workspaces button {
   padding: 0 10px;
   background-color: transparent;
-  color: #ffffff;
+  color: #ebdbb2;
 }
 
 #workspaces button:hover {
@@ -126,7 +121,7 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
   padding: 0 10px;
-  color: #ffffff;
+  color: #ebdbb2;
 }
 
 #window,
@@ -200,13 +195,15 @@ label:focus {
   background-color: #000000;
 }
 
-#cpu {
-  background-color: #98971a;
-  color: #000000;
-}
-
-#memory {
-  background-color: #b16286;
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#temperature,
+#tray {
+  /* background-color: #98971a; */
+  background-color: transparent;
+  color: #ebdbb2;
 }
 
 #disk {
@@ -217,23 +214,27 @@ label:focus {
   background-color: #90b1b1;
 }
 
-#network {
-  background-color: #458588;
-}
+/* #network { */
+/*   background-color: #458588; */
+/* } */
 
-#network.disconnected {
-  background-color: #f53c3c;
-}
+/* #network.disconnected { */
+/*   background-color: #f53c3c; */
+/* } */
 
-#pulseaudio {
-  background-color: #d79921;
-  color: #000000;
-}
+/* #pulseaudio { */
+/*   background-color: #d79921; */
+/*   color: #000000; */
+/* } */
 
-#pulseaudio.muted {
-  background-color: #90b1b1;
-  color: #2a5c45;
-}
+/* #pulseaudio.muted { */
+/*   background-color: #90b1b1; */
+/*   color: #2a5c45; */
+/* } */
+
+/* #pulseaudio:hover { */
+/*   background-color: #a37800; */
+/* } */
 
 #wireplumber {
   background-color: #fff0f5;
@@ -258,26 +259,26 @@ label:focus {
   background-color: #ffa000;
 }
 
-#temperature {
-  background-color: #d65d0e;
-}
+/* #temperature { */
+/*   background-color: #d65d0e; */
+/* } */
 
-#temperature.critical {
-  background-color: #eb4d4b;
-}
+/* #temperature.critical { */
+/*   background-color: #eb4d4b; */
+/* } */
 
-#tray {
-  background-color: #689d6a;
-}
+/* #tray { */
+/*   background-color: #689d6a; */
+/* } */
 
-#tray>.passive {
-  -gtk-icon-effect: dim;
-}
+/* #tray>.passive { */
+/*   -gtk-icon-effect: dim; */
+/* } */
 
-#tray>.needs-attention {
-  -gtk-icon-effect: highlight;
-  background-color: #eb4d4b;
-}
+/* #tray>.needs-attention { */
+/*   -gtk-icon-effect: highlight; */
+/*   background-color: #eb4d4b; */
+/* } */
 
 #idle_inhibitor {
   background-color: #2d3436;

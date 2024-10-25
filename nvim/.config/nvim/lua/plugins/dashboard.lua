@@ -8,7 +8,7 @@ return {
       require("dashboard").setup({
         theme = "doom",
         config = {
-          header = headers.me,
+          header = headers.neovim,
         },
       })
     end,

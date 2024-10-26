@@ -116,6 +116,8 @@ alias tmuxsource="tmux source ~/.tmux.conf"
 
 alias dockerstart="sudo systemctl start docker"
 
+alias neorg="cd ~/notes && nvim index.norg"
+
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin/:$PATH
 
 source /opt/asdf-vm/asdf.sh

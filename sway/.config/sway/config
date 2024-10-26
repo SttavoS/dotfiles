@@ -25,7 +25,7 @@ set $green #98971a
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/sttavos/Imagens/wallpapers/Nighthawks_by_Edward_Hopper_1942.jpg fill
+output * bg /home/sttavos/dotfiles/wallpapers/the-past_thomas-cole.png fill
 #
 # Example configuration:
 #

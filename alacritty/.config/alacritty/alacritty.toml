@@ -14,17 +14,17 @@ program = "/bin/zsh"
 size = 11.0
 
 [font.bold]
-family = "JetbrainsMonoNL Nerd Font"
+family = "JetbrainsMonoNL Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetbrainsMonoNL Nerd Font"
+family = "JetbrainsMonoNL Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetbrainsMonoNL Nerd Font"
+family = "JetbrainsMonoNL Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetbrainsMonoNL Nerd Font"
+family = "JetbrainsMonoNL Nerd Font Mono"
 style = "Regular"

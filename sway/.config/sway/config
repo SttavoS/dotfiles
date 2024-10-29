@@ -85,6 +85,7 @@ bindsym $mod+space exec $menu
 # Start screenshot GUI
 bindsym $mod+Print exec slurp | grim -g - - | wl-copy
 
+bindsym $mod+Mod1+l exec gtklock -d
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
 # Despite the name, also works for non-floating windows.

@@ -13,6 +13,7 @@ return {
 				"prettier",
 				"eslint-lsp",
 				"js-debug-adapter",
+				"elixir-ls",
 			},
 		},
 	},
@@ -58,6 +59,10 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.volar.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.elixirls.setup({
+				cmd = { "/home/sttavos/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" },
 				capabilities = capabilities,
 			})
 

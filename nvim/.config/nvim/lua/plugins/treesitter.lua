@@ -17,6 +17,8 @@ return {
 					"vue",
 					"rust",
 					"elixir",
+					"heex",
+					"eex",
 					"c_sharp",
 					"fsharp",
 					"php",

@@ -109,7 +109,7 @@ export SYSTEMD_EDITOR='nvim'
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias nvimconfig="cd ~/dotfiles/nvim/.config/nvim && nvim"
 alias alacrittyconfig="nvim ~/.config/alacritty/alacritty.toml"
 alias tmuxsource="tmux source ~/.tmux.conf"
@@ -120,5 +120,5 @@ alias neorg="cd ~/notes && nvim index.norg"
 
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin/:$PATH
 
-source /opt/asdf-vm/asdf.sh
+# source /opt/asdf-vm/asdf.sh
 eval "$(starship init zsh)"

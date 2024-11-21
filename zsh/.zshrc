@@ -121,4 +121,5 @@ alias neorg="cd ~/notes && nvim index.norg"
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin/:$PATH
 
 # source /opt/asdf-vm/asdf.sh
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"

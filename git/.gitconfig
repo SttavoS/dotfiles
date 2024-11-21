@@ -1,5 +1,5 @@
 [core]
-    editor = nvim
+  editor = nvim
 [user]
 	name = Gustavo Schneider
 	email = gustavo.schneider.dev@gmail.com
@@ -8,6 +8,8 @@
 [alias]
 	s = !git status -s
   l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  pl = !git pull
+  ps = !git push
 [push]
 	followTags = true
 [init]

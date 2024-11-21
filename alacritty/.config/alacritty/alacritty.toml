@@ -1,12 +1,13 @@
+[general]
 import = ["/home/sttavos/.config/alacritty/gruvbox.toml"]
 
 [window]
-decorations = "full"
-dynamic_title = true
+decorations = "none"
+dynamic_title = false
 opacity = 0.9
-padding = { x = 5, y = 0 }
+padding = { x = 0, y = 0 }
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 
 # Font config:
@@ -28,3 +29,4 @@ style = "Italic"
 [font.normal]
 family = "JetbrainsMonoNL Nerd Font Mono"
 style = "Regular"
+

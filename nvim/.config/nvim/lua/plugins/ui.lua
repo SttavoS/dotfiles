@@ -166,6 +166,13 @@ return {
 		end,
 	},
 	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		opts = {
+			theme = "gruvbox",
+		},
+	},
+	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
 		opts = {

@@ -121,8 +121,8 @@ return {
 		config = function(_, opts)
 			require("bufferline").setup(opts)
 
-			vim.keymap.set("n", "<leader>b[", "<cmd>BufferLineCycleNext<CR>", { desc = "Go to next buffer" })
-			vim.keymap.set("n", "<leader>b]", "<cmd>BufferLineCyclePrev<CR>", { desc = "Go to previous buffer" })
+			vim.keymap.set("n", "<leader>b]", "<cmd>BufferLineCycleNext<CR>", { desc = "Go to next buffer" })
+			vim.keymap.set("n", "<leader>b[", "<cmd>BufferLineCyclePrev<CR>", { desc = "Go to previous buffer" })
 		end,
 	},
 	{

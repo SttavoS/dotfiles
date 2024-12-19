@@ -6,7 +6,7 @@
     m-key-leds, mr-key-led, multiplatform, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
   _battery: 4100
   _modelId: B03400000000
-  _sensitive: {divert-keys: false, hires-scroll-mode: false, hires-smooth-invert: false, hires-smooth-resolution: false}
+  _sensitive: {divert-keys: false, hires-scroll-mode: false, hires-smooth-invert: false, hires-smooth-resolution: false, reprogrammable-keys: false}
   _serial: 670ABFC0
   _unitId: 670ABFC0
   _wpid: B034

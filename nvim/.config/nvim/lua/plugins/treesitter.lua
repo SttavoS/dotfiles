@@ -19,6 +19,7 @@ return {
 					"elixir",
 					"heex",
 					"eex",
+					"python",
 					"c_sharp",
 					"fsharp",
 					"php",

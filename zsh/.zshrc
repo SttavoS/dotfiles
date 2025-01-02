@@ -54,3 +54,10 @@ fi
 if command -v starship &> /dev/null; then  
   eval "$(starship init zsh)"
 fi
+
+# bun completions
+[ -s "/home/sttavos/.bun/_bun" ] && source "/home/sttavos/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

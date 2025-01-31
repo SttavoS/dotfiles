@@ -14,12 +14,12 @@
 ---
 - MouseGesture: Mouse Up
 - KeyPress:
-  - [Super_L, a]
+  - Super_L
   - click
 ...
 ---
 - MouseGesture: Mouse Down
 - KeyPress:
-  - Super_L
+  - [Super_L, a]
   - click
 ...

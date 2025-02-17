@@ -5,7 +5,7 @@ theme "gruvbox"
 
 keybinds clear-defaults=true {
     locked {
-        bind "Ctrl z" { SwitchToMode "normal"; }
+        bind "Ctrl g" { SwitchToMode "normal"; }
     }
     pane {
         bind "left" { MoveFocus "left"; }

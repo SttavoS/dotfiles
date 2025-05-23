@@ -11,6 +11,8 @@
   lg = log --graph --decorate --all --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
   pl = pull
   ps = push
+  ck = checkout
+  ckb = checkout -b
 [push]
 	followTags = true
 [init]

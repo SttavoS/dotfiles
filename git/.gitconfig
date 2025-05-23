@@ -6,11 +6,11 @@
 [color]
 	ui = auto
 [alias]
-	s = !git status -s
-  l = !git log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
-  lg = !git log --graph --decorate --all --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
-  pl = !git pull
-  ps = !git push
+	s = status -s
+  l = log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  lg = log --graph --decorate --all --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  pl = pull
+  ps = push
 [push]
 	followTags = true
 [init]

@@ -8,5 +8,4 @@ Exec=env GDK_BACKEND=wayland /usr/bin/ulauncher --no-window-shadow
 Icon=ulauncher
 Terminal=false
 Type=Application
-X-GNOME-Autostart-enabled=true
-
+X-GNOME-Autostart-enabled=false

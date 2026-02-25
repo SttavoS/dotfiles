@@ -13,6 +13,7 @@
   ps = push
   ck = checkout
   ckb = checkout -b
+  mg = merge
 [push]
 	followTags = true
 [init]

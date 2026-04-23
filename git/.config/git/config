@@ -2,9 +2,9 @@
   editor = nvim
 [user]
 	name = Gustavo Schneider
-	email = gustavo.schneider.dev@gmail.com
-[color]
-	ui = auto
+  email = gustavo.schneider.dev@gmail.com
+[init]
+	defaultBranch = master
 [alias]
 	s = status -s
   l = log --pretty=format:'%C(yellow)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
@@ -15,6 +15,15 @@
   ckb = checkout -b
   mg = merge
 [push]
-	followTags = true
-[init]
-	defaultBranch = main
+  followTags = true
+  autoSetupRemote = true
+[color]
+  ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = -version:refname
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true

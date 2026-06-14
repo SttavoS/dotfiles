@@ -6,16 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Personal dotfiles for SttavoS. Each top-level directory corresponds to one tool, and its contents mirror the home directory layout exactly — `git/.config/git/config` maps to `~/.config/git/config`. This allows GNU Stow (or manual symlinking) to deploy each tool independently.
 
-Tools managed: `bash`, `bat`, `fastfetch`, `ghostty`, `git`, `solaar`, `starship`, `ulauncher`, `walker`, `zellij`.
+Tools managed: `bash`, `bat`, `fastfetch`, `ghostty`, `git`, `solaar`, `starship`, `walker`, `zellij`.
 
 ## Setup
 
 Stow a single package (e.g., git):
+
 ```sh
 stow --dir=/home/sttavos/dotfiles --target="$HOME" git
 ```
 
 Stow all packages at once:
+
 ```sh
 stow --dir=/home/sttavos/dotfiles --target="$HOME" */
 ```

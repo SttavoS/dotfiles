@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I{} bash -c 'echo \"=== {} ===\" && cat \"{}\" && echo \"\"')",
+      "Bash(mkdir -p /home/sttavos/dotfiles/hyprland/.local/share/omarchy/default/hypr)",
+      "Bash(cp -r ~/.local/share/omarchy/default/hypr/. /home/sttavos/dotfiles/hyprland/.local/share/omarchy/default/hypr/)",
+      "Read(//home/sttavos/.local/share/omarchy/default/bash/**)"
+    ]
+  }
+}

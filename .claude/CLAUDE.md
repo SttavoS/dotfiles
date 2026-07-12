@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Personal dotfiles for SttavoS. Each top-level directory corresponds to one tool, and its contents mirror the home directory layout exactly — `git/.config/git/config` maps to `~/.config/git/config`. This allows GNU Stow (or manual symlinking) to deploy each tool independently.
 
-Tools managed: `bash`, `bat`, `fastfetch`, `ghostty`, `git`, `solaar`, `starship`, `walker`, `zellij`.
+Tools managed: `bash`, `bat`, `fastfetch`, `ghostty`, `git`, `hypr`, `solaar`, `starship`, `walker`, `waybar`, `zellij`.
 
 ## Setup
 

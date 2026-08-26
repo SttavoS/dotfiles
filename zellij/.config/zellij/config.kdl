@@ -3,6 +3,8 @@
 //
 theme "gruvbox"
 
+pane_frame_style "full"
+
 keybinds clear-defaults=true {
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }

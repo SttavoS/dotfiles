@@ -3,6 +3,7 @@
 -- sobreviver a troca de porta.
 
 local ultrawide = "desc:LG Electronics LG ULTRAWIDE 0x0004C5E7"
+local desktop = "HDMI-A-1"
 local laptop = "eDP-1"
 
 -- Workspaces 1-9 no monitor externo

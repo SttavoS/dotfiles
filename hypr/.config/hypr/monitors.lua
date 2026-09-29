@@ -14,6 +14,6 @@ hl.monitor({
 })
 
 -- Fallback para monitores não listados acima
-hl.monitor({ output = "", mode = "preferred", position = "auto", scale = "auto" })
+hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.0 })
 
 hl.config({ misc = { vrr = 0 }, render = { cm_auto_hdr = 0 } })
